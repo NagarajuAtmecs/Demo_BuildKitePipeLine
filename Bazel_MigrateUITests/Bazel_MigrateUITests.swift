@@ -42,6 +42,20 @@ final class Bazel_MigrateUITests: XCTestCase {
     func test_ForgotBtnisNotEmpty() throws {
         let forgotPassword = app.buttons["Forgot"]
         XCTAssertTrue(forgotPassword.exists)
-        
     }
+   
+    func test_TextFieldInputValidation() throws {
+        let firstTextField = app.textFields["userName"]
+        let secondTextField = app.textFields["Password"]
+        XCTAssertTrue(firstTextField.exists, "The first text field does not exist.")
+        XCTAssertTrue(secondTextField.exists, "The second text field does not exist.")
+        firstTextField.tap()
+        firstTextField.typeText("Hello")
+        secondTextField.tap()
+        secondTextField.typeText("World")
+        XCTAssertEqual(firstTextField.value as? String, "Hello", "The text in the first text field is incorrect.")
+        XCTAssertEqual(secondTextField.value as? String, "World", "The text in the second text field is incorrect.")
+    }
+
+    
 }
