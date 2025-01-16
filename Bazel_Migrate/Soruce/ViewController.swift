@@ -41,6 +41,10 @@ class ViewController: UIViewController {
         alertController.addAction(okAction)
         self.present(alertController, animated: true, completion: nil)
     }
+    
+    @IBAction func forgotPassWordBtnClk(_ sender:UIButton) {
+        print("ButtonClick")
+    }
 }
 
  

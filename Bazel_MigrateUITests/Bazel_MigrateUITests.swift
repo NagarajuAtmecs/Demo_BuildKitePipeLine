@@ -38,4 +38,10 @@ final class Bazel_MigrateUITests: XCTestCase {
         XCTAssertTrue(passWordtxt.exists,"The Password text field does not exist")
         XCTAssertTrue((passWordtxt.value as? String)?.isEmpty ?? false || passWordtxt.value as? String == passWordtxt.placeholderValue, "The Password text field is not empty initially or only contains placeholder text.")
        }
+    
+    func test_ForgotBtnisNotEmpty() throws {
+        let forgotPassword = app.buttons["Forgot"]
+        XCTAssertTrue(forgotPassword.exists)
+        
+    }
 }
