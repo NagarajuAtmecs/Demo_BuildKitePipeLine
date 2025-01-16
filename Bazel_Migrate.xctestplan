@@ -1,0 +1,36 @@
+{
+  "configurations" : [
+    {
+      "id" : "DC9F33D9-B8CF-4FC8-B9AA-5C651EE008C5",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:Bazel_Migrate.xcodeproj",
+      "identifier" : "D604FAF62D377FE400F4F1FD",
+      "name" : "Bazel_Migrate"
+    }
+  },
+  "testTargets" : [
+    {
+      "parallelizable" : false,
+      "target" : {
+        "containerPath" : "container:Bazel_Migrate.xcodeproj",
+        "identifier" : "D604FB0C2D377FE500F4F1FD",
+        "name" : "Bazel_MigrateTests"
+      }
+    },
+    {
+      "target" : {
+        "containerPath" : "container:Bazel_Migrate.xcodeproj",
+        "identifier" : "D604FB162D377FE500F4F1FD",
+        "name" : "Bazel_MigrateUITests"
+      }
+    }
+  ],
+  "version" : 1
+}
