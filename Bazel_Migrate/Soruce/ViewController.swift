@@ -39,7 +39,6 @@ class ViewController: UIViewController {
         let okAction = UIAlertAction(title: "OK", style: .default) { _ in
             print("User acknowledged login success")
         }
-        
         alertController.addAction(okAction)
         self.present(alertController, animated: true, completion: nil)
     }
