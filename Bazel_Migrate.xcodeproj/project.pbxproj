@@ -27,8 +27,8 @@
 		D604FAF72D377FE400F4F1FD /* Bazel_Migrate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bazel_Migrate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D604FB0D2D377FE500F4F1FD /* Bazel_MigrateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Bazel_MigrateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D604FB172D377FE500F4F1FD /* Bazel_MigrateUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Bazel_MigrateUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		D650F6412D3A302B00258637 /* Bazel_Migrate_Stageing.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = Bazel_Migrate_Stageing.xctestplan; sourceTree = "<group>"; };
-		D650F6422D3A307300258637 /* Bazel_MigrateUITests_Production.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = Bazel_MigrateUITests_Production.xctestplan; sourceTree = "<group>"; };
+		D650F6432D3A3D2100258637 /* Bazel_Migrate_Staging.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = Bazel_Migrate_Staging.xctestplan; sourceTree = "<group>"; };
+		D650F6442D3A3D5100258637 /* Bazel_Migrate_Production.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = Bazel_Migrate_Production.xctestplan; sourceTree = "<group>"; };
 		D67A0B8E2D37D7A60037D82D /* Bazel_Migrate.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = Bazel_Migrate.xctestplan; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -91,8 +91,8 @@
 		D604FAEE2D377FE400F4F1FD = {
 			isa = PBXGroup;
 			children = (
-				D650F6422D3A307300258637 /* Bazel_MigrateUITests_Production.xctestplan */,
-				D650F6412D3A302B00258637 /* Bazel_Migrate_Stageing.xctestplan */,
+				D650F6442D3A3D5100258637 /* Bazel_Migrate_Production.xctestplan */,
+				D650F6432D3A3D2100258637 /* Bazel_Migrate_Staging.xctestplan */,
 				D67A0B8E2D37D7A60037D82D /* Bazel_Migrate.xctestplan */,
 				D604FAF92D377FE400F4F1FD /* Bazel_Migrate */,
 				D604FB102D377FE500F4F1FD /* Bazel_MigrateTests */,
