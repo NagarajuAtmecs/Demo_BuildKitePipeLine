@@ -44,7 +44,7 @@ class ViewController: UIViewController {
     }
     
     @IBAction func forgotPassWordBtnClk(_ sender:UIButton) {
-        print("this resplved latest updadate")
+        print("this resplved latest")
     }
 }
 
