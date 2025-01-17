@@ -44,7 +44,7 @@ class ViewController: UIViewController {
     }
     
     @IBAction func forgotPassWordBtnClk(_ sender:UIButton) {
-        print("this is staging testign update")
+        print("this is testign update")
     }
 }
 
