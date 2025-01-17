@@ -45,6 +45,8 @@ class ViewController: UIViewController {
     
     @IBAction func forgotPassWordBtnClk(_ sender:UIButton) {
         print("ButtonClick")
+        print("Button is not values")
+        
     }
 }
 
