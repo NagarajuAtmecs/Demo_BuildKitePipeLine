@@ -1,0 +1,28 @@
+{
+  "configurations" : [
+    {
+      "id" : "D5B0C750-6987-4667-8FB0-91717D747D94",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+
+  },
+  "testTargets" : [
+    {
+      "skippedTests" : [
+        "ProfileVCTests",
+        "ProfileVCTests\/testProfileScreenUI()"
+      ],
+      "target" : {
+        "containerPath" : "container:Bazel_Migrate.xcodeproj",
+        "identifier" : "D604FB162D377FE500F4F1FD",
+        "name" : "Bazel_MigrateUITests"
+      }
+    }
+  ],
+  "version" : 1
+}

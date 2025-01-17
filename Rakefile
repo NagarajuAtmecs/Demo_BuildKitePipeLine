@@ -2,7 +2,7 @@ namespace :test do
   desc "Run XCUITests using xcodebuild"
   task :run do
     project_path = "Bazel_Migrate"  # Correct Xcode project name
-    scheme = "Bazel_Migrate"  # Correct scheme name
+    scheme = " Bazel_Migrate_Stageing"  # Correct scheme name
     destination = "platform=iOS Simulator,name=iPhone 16"  # Valid simulator
 
     # Run xcodebuild to execute the tests

@@ -55,6 +55,4 @@ final class Bazel_MigrateUITests: XCTestCase {
         secondTextField.typeText("World")
         XCTAssertEqual(firstTextField.value as? String, "Hello", "The text in the first text field is incorrect.")
     }
-
-    
 }

@@ -1,0 +1,32 @@
+{
+  "configurations" : [
+    {
+      "id" : "B71D1611-CBB1-43CB-8721-55AC5EB1FFB2",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+
+  },
+  "testTargets" : [
+    {
+      "skippedTests" : [
+        "Bazel_MigrateUITests",
+        "Bazel_MigrateUITests\/test_ForgotBtnisNotEmpty()",
+        "Bazel_MigrateUITests\/test_TextFieldInputValidation()",
+        "Bazel_MigrateUITests\/test_loginButtonTitleiIsNotEmpty()",
+        "Bazel_MigrateUITests\/test_userNameisEmpty()",
+        "Bazel_MigrateUITests\/test_userPasswordEmpty()"
+      ],
+      "target" : {
+        "containerPath" : "container:Bazel_Migrate.xcodeproj",
+        "identifier" : "D604FB162D377FE500F4F1FD",
+        "name" : "Bazel_MigrateUITests"
+      }
+    }
+  ],
+  "version" : 1
+}

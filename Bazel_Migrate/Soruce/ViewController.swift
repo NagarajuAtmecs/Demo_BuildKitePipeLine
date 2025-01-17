@@ -21,7 +21,9 @@ class ViewController: UIViewController {
     
     @IBAction func LogininBtnClk(_ sender:UIButton) {
         if nameTxtField.text!.count > 0 && passwordField.text!.count > 0{
-            showLoginSuccessAlert(title:"Login Successful", message:"You have successfully logged in.")
+            let storyBoard: UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
+            let home = storyBoard.instantiateViewController(withIdentifier: "ProfileVC") as! ProfileVC
+            navigationController?.pushViewController(home, animated: true);
         } else{
             showLoginSuccessAlert(title:"Failed To Login", message:"User name and Password cannot be nil")
         }
